@@ -167,3 +167,49 @@ footer span {
 	color: #77a466;
 	font-size: .875em;
 }
+
+/*==========================================================================================================================================================
+                BREAKPOINTS
+============================================================================================================================================================*/
+
+@media (min-width: 768px) {
+	.section-one, .section-two, .section-three {
+		display: flex;
+		justify-content: center;
+		justify-items: center;
+		flex-flow: row wrap;
+	}
+
+	.bottom-section {
+		display: flex;
+		justify-content: center;
+		justify-items: center;
+		flex-flow: row wrap;
+		border-top: 1px solid beige
+	}
+
+	.section-two {
+		border-left: 1px solid beige;
+		border-right: 1px solid beige;
+	}
+}
+
+@media (min-width: 1200px) {
+	header nav ul {
+		display: flex;
+		justify-content: center;
+		justify-items: center;
+		flex-flow: row wrap;
+	}
+
+	header h1 {
+		width: 50%;
+		padding: auto;
+		border-bottom: 2px solid #77a466;
+		text-align: left;
+	}
+
+	nav {
+		width: 40%;
+	}
+}
